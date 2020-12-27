@@ -1,0 +1,267 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	
+      font-family: 'Playfair Display', serif;
+      font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+	padding: 25px 0px;
+
+
+}
+
+.container{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.logo{
+	width: 12%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+
+.manu{
+	width: 70%;
+	float:right;
+
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style-type: none;
+	float: left;
+}
+.manu ul li a{
+	margin: 0px 50px;
+	font-family:'Playfair Display', serif ;
+	font-size: 16px;
+	font-weight:400;
+	color:#626262 ;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px 3px;
+	border: 1px solid transparent;
+}
+.manu ul li a:hover{
+	border-bottom: 1px solid #626262 ;
+
+}
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*Header end*/
+/*Header end*/
+
+/*Strat Banner*/
+
+.b-img img{
+	width: 100%;
+}
+
+/*End Banner*/
+
+/*geway Strat*/
+.getway{
+	padding: 60px 0px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.h-common{
+    margin: 20px 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400px;
+	color: #626262;
+}
+.p-common{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	
+}
+.p1-common{
+	font-family: 'Playfair Display', serif;
+	 margin-bottom: 30px;
+	font-size: 15px;
+	font-weight: 400px;
+	color: #626262;
+	letter-spacing: 1.2px;
+    line-height: 25px;
+
+}
+.p2-common{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+
+
+
+
+
+/*geway End*/
+
+/*Blog Strat*/
+
+.blog{
+	
+		
+}
+.container2{
+		
+		overflow: hidden;
+
+}
+.single-b{
+	margin-top: 60px;
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+
+}
+.single-b:nth-child(even){
+	margin-right: 0;
+
+}
+
+.single-b img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+/*Blog End*/
+
+/*singup strat*/
+.news{
+	padding: 60px 0px;
+	background: #f0f0f0;
+}
+.singup{
+	margin: 0 auto;
+	text-align: center;
+}
+.load{
+	position: relative;
+}
+
+.load{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.load input{
+	width: 400px;
+	margin-left: 0px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #626262;
+	outline: none;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.send-btn {
+	padding-left: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: 2px;
+	cursor: pointer;
+    
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+/*singup end*/
+
+/*enjoying strat*/
+.enjoy{
+      }
+/*enjoying end*/
+/*btn-sec strat*/
+.btn-sec{
+	padding: 160px 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+.btn button{
+	font-family:;
+	font-size: 20px;
+	font-weight: 400px;
+	color: #626262;
+	background: #fff;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #626262;
+	padding: 16px 25px;
+	transition: .5s ease;
+
+}
+.btn button:hover{
+	background:#626262;
+	color: #fff; 
+}
+/*btn-sec end*/
+
+footer{
+	background: #F0F0F0;
+	padding: 35px 0px;
+
+
+}
+
+.f-left{
+	width: 50%;
+	float: left;
+}
+.f-left ul{}
+.f-left li{
+	color: #000;
+	list-style-type: none;
+	float: left;
+	margin-right: 20px;
+}
+
+.f-right{
+	width: 50%;
+	float: left;
+}
+.f-right ul{
+	float: right;
+}
+.f-right ul li{
+	color: #000000;
+	list-style-type: none;
+	float: left;
+	margin-right: 20px;
+}
+.f-right ul li a{
+	text-decoration: none;
+	
+
+}
+.f-right ul li:last-child{
+	margin-right: 0px;
+}
